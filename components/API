@@ -1,5 +1,3 @@
-const API_KEY = "c23c86eacaf10047d889d225d5d58eb3";
-
-const Path = `https://api.themoviedb.org/3/movie/top_rated?api_key=${API_KEY}&language=en-US`;
+const Path = `https://api.themoviedb.org/3/movie/top_rated?api_key=c23c86eacaf10047d889d225d5d58eb3&language=en-US`;
 
 export default Path;

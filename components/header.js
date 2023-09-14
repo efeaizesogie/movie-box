@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import Navbar from "./navbar.js";
-import Path from "../components/API";
 import Item from "../public/item.svg";
 import Idmblogo from "../public/idmblogo.svg";
 import Playsvg from "../public/play.svg";
@@ -26,7 +25,7 @@ function header({ randommovie }) {
           <Idmblogo className="idmb" />
           <p>{randommovie?.vote_average}/10</p>
           <Item className="item" />
-          <p>97%</p>
+          <p>{randommovie?.vote_average * 10}%</p>
         </div>
         <h5>{trim(randommovie?.overview)}</h5>
         <button>

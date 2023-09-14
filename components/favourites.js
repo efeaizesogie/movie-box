@@ -1,14 +1,12 @@
-import React from 'react'
+import React from "react";
 
 function favourites(message, data) {
   return (
-    <div className='favourites'>
+    <div className="favourites">
       <h4>{message}</h4>
-      <Link>
-        Check favourites
-      </Link>
+      <Link>Show favourites</Link>
     </div>
-  )
+  );
 }
 
-export default favourites
+export default favourites;
